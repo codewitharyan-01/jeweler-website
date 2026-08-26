@@ -10,15 +10,15 @@ const items = [
 
 const AsymmetricGrid = () => {
   return (
-    <section className="py-24 bg-midnight text-champagne px-4 md:px-8 lg:px-16 max-w-7xl mx-auto">
-      <div className="flex flex-col md:flex-row justify-between items-end mb-16 text-center md:text-left">
+    <section className="py-16 md:py-24 bg-midnight text-champagne px-4 md:px-8 lg:px-16 max-w-7xl mx-auto">
+      <div className="flex flex-col md:flex-row justify-between items-end mb-12 md:mb-16 text-center md:text-left">
         <div>
           <p className="text-gold font-sans tracking-[0.3em] uppercase text-[10px] mb-4 bg-white/5 inline-block px-4 py-2 rounded-full border border-white/10 backdrop-blur-md">Highlights</p>
           <h2 className="font-serif text-[clamp(2.5rem,5vw,4rem)] leading-none text-champagne">
             Signature Pieces.
           </h2>
         </div>
-        <a href="/collections" className="btn-outline mt-8 md:mt-0">
+        <a href="/collections" className="btn-outline mt-6 md:mt-0">
           View Masterpieces
         </a>
       </div>

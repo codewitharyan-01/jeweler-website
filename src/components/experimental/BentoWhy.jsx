@@ -17,14 +17,14 @@ const BentoWhy = () => {
   };
 
   return (
-    <section className="py-32 bg-midnight text-champagne px-4 md:px-12 lg:px-24">
-      <div className="mb-24 text-center max-w-2xl mx-auto">
+    <section className="py-16 md:py-32 bg-midnight text-champagne px-4 md:px-12 lg:px-24">
+      <div className="mb-16 md:mb-24 text-center max-w-2xl mx-auto">
         <p className="text-gold font-sans uppercase tracking-[0.3em] text-[10px] mb-4 bg-white/5 inline-block px-4 py-2 rounded-full border border-white/10 backdrop-blur-md">Excellence</p>
         <motion.h2 
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="font-serif text-[clamp(3rem,6vw,5rem)] text-champagne leading-none"
+          className="font-serif text-4xl md:text-[clamp(3rem,6vw,5rem)] text-champagne leading-none"
         >
           A Legacy of <br/><span className="italic text-white/50">Trust.</span>
         </motion.h2>
@@ -34,8 +34,8 @@ const BentoWhy = () => {
         variants={containerVariants}
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, margin: "-100px" }}
-        className="grid grid-cols-1 md:grid-cols-4 md:grid-rows-2 gap-6 max-w-6xl mx-auto"
+        viewport={{ once: true, margin: "-50px" }}
+        className="grid grid-cols-1 md:grid-cols-4 md:grid-rows-2 gap-4 md:gap-6 max-w-6xl mx-auto"
       >
         {/* Large Tile */}
         <motion.div variants={itemVariants} className="md:col-span-2 md:row-span-2 ios-card p-12 flex flex-col justify-end min-h-[400px] relative overflow-hidden group hover-target">
